@@ -1,0 +1,18 @@
+Start
+input a, b, c
+min = a
+mid = b
+max = c
+if (min > mid) { 
+  mid = a 
+  min = b 
+  }
+if (mid > max){
+  max = mid
+  mid = c
+  if (min > mid){
+    mid = min
+    min = c
+    }
+ }
+End
