@@ -1,0 +1,11 @@
+Start
+Read input N
+Set i = 0
+Set sum = 0
+While (i < N){
+  Read input b
+  sum = sum + (b*b)
+  i=i+1
+}
+Print sum
+end
